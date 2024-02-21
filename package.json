@@ -1,0 +1,11 @@
+{
+  "name": "serverside",
+  "version": "1.0.0",
+  "description": "The Typescript package for working with the serverside.io API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Serverside.io (lenny)",
+  "license": "ISC"
+}

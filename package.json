@@ -1,11 +1,21 @@
 {
-  "name": "serverside",
-  "version": "1.0.0",
-  "description": "The Typescript package for working with the serverside.io API.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Serverside.io (lenny)",
-  "license": "ISC"
+  "name": "serversideio",
+  "version": "1.0.1",
+  "description": "The Typescript package for working with the serverside.io API.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Serverside.io (lenny)",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.7"
+  }
 }
+
